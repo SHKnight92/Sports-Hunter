@@ -1,0 +1,108 @@
+.team-header img{
+    width: 120px;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    border: 3px solid lightgray;
+    border-radius: 50%;
+    background: #00000073;
+}
+.team-header{
+    padding: 60px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header-banner img{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    height: 270px;
+}
+.teamDetails{
+    width: 80%;
+    border-radius: 10px;
+    background-color: #3A42FF;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0px;
+    min-height: 250px;
+    display: flex;
+}
+.teamInfo{
+    width: 40%;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    line-height: 16px;
+    margin-left: 30px;
+}
+.teamImage{
+    width: 60%;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+.teamImage img{
+    width: 100%;
+}
+.team-description{
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    color:lightgray;
+    margin: 0 auto;
+    text-align: left;
+}
+.team-footer{
+    border-top: 1px solid rgba(211, 211, 211, 0.466);
+}
+.social-icon{
+    font-size: 20px;
+    padding: 8px;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    margin: 15px 8px;
+    cursor: pointer;
+}
+.teamInfo > p{
+    margin-left: 12px;
+}
+.facebook{
+    color: #3B5998;
+    border: 2px solid #3B5998;
+}
+.twitter{
+    color: #1DA1F2;
+    border: 2px solid #1DA1F2;
+}
+.youtube{
+    color: #FF0000;
+    border: 2px solid #FF0000;
+}
+
+/* // Small devices (landscape phones, 575px and up) */
+@media (max-width: 575px) {
+.teamInfo{
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.teamDetails{
+    min-height: 400px;
+    position: relative;
+}
+.teamImage img{
+    width: 80%;
+    position: absolute;
+    top: 20px;
+    right: 35px;
+}
+}

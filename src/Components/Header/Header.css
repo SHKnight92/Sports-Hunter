@@ -1,0 +1,19 @@
+.header-contain{
+    background-image: url(https://www.thesportsdb.com/images/media/team/stadium/rsvstp1420328111.jpg);
+    background-repeat: no-repeat;
+    padding: 60px;
+    background-size: cover;
+    margin-bottom: 20px;
+    background-color: #00000070;
+    background-blend-mode: multiply;
+}
+.header-contain>h1{
+    color: white;
+    font-size: 50px;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px){
+    .header-contain>h1{
+        font-size: 45px;
+    }
+}

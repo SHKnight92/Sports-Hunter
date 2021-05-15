@@ -1,0 +1,38 @@
+.team-card{
+    width: 25%;
+    border: 1px solid lightgray;
+    padding: 15px 10px;
+    margin: 10px;
+    display: inline-grid;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+}
+.team-card img{
+    width: 120px;
+    margin-bottom: 15px;
+}
+.team-card button{
+    border:1px solid lightgray;
+    padding: 10px 20px;
+    background-color: brown;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* // Small devices (landscape phones, 575px and up) */
+@media (max-width: 575px) {
+    .team-card{
+        width: 90%;
+        display: block;
+    }
+    .team-card img{
+        margin-bottom: 5px;
+    }
+    .team-card button{
+        padding: 10px 20px;
+        width: 60%;
+    }
+}
